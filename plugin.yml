@@ -1,0 +1,15 @@
+name: GeoIP
+main: GeoIP\Loader
+author: TSt
+version: 1.0
+api: 3.0.0-ALPHA9
+permissions:
+  geoip.show.by.nick:
+    default: op
+    description: '/geoplayer <ник>'
+  geoip.show.by.IP:
+    default: op
+    description: '/geoip <IP>'
+  geoip.hide:
+    default: op
+    description: 'скрывать GeoIP (пока что только в /whois)'
