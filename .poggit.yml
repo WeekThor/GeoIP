@@ -2,6 +2,6 @@
 branches:
 - master
 projects:
-  GeoIP2:
+  GeoIP:
     path: ""
 ...
